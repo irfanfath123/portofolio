@@ -54,7 +54,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold">#My Projects</h1>
             <p className="text-lg md:text-xl mt-4">Here are some of my projects</p>
           </div>
-          <div className="flex justify-between space-x-5 mt-10">
+          <div className="block md:flex justify-between space-y-3 lg:space-y-0 lg:space-x-5 mt-10">
             <div className="group bg-gray-800 rounded-lg border-2 hover:-translate-y-5 transition hover:border-red-700 duration-300 relative z-0 p-1">
               <div className="absolute top-0 left-0 py-1 px-2 bg-[#ffffff5b] w-full">
                 <p className="text-black font-bold">#Indie-Services</p>
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between space-x-5 my-5">
+          <div className="block md:flex justify-between space-y-3 lg:space-y-0 lg:space-x-5 my-5">
             <div className="group bg-gray-800 rounded-lg border-2 hover:-translate-y-5 transition hover:border-red-700 duration-300 relative z-0 p-1">
               <div className="absolute top-0 left-0 py-1 px-2 bg-[#ffffff5b] w-full">
                 <p className="text-black font-bold">#Indie-Services</p>
